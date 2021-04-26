@@ -1,6 +1,6 @@
 # `Grocery 🍇 🍎 🥑 🥦 List`
 
-Objective: I will be creating a grocery list with two possible stretch goals or both.
+Objective: I will be creating a grocery list with two possible stretch goals.
 
 ### `Features:`
 * Be able to add food products to the list.
@@ -9,7 +9,7 @@ Objective: I will be creating a grocery list with two possible stretch goals or 
 
 ### `Stretch Goals:`
 Feature 1 
-* I really enjoy fruit and have them everyday.  I found a really neat API https://www.fruityvice.com/#3 that provides valuable information that I would like to incorporate into the `todo` list.
+* I really enjoy fruit and have them everyday.  I found a really neat API https://www.fruityvice.com/#3 that provides valuable information that I would like to incorporate into the `grocery list`.
 *  `/api/fruit/{ID} or /api/fruit/{name}`
 *  Example `api/fruit/apple`
 *  This json array appears.
