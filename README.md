@@ -1,4 +1,4 @@
-# `Grocery List`
+# `Grocery 🍇 🍎 🥑 🥦 List`
 
 Objective: I will be creating a grocery list with two possible stretch goals or both.
 
