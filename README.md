@@ -33,3 +33,4 @@ Feature 2
 
 Final Project 
 * My intention is to complete the application that is mobile friendly, useful, and meets the minimum requirements with at least one stretch goal.
+
