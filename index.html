@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +11,17 @@
 <div id="header">
     <h1>Grocery Items 📝</h1>
 </div>
+<br>
+
 <body>
     <h3>SHOPPING LIST</h3>
     <div id="shop-list"></div>
-    
-
+    <br>
     <h3>ADD ITEM</h3>
+    <br>
     <form id="shop-add">
-      <input type="text" id="shop-item" placeholder="New Item" required value="1 bag of sugar"/>
-      <input type="submit" id="shop-add-btn" value="Add Item"/>
+        <input type="text" id="shop-item" placeholder="New Item" required value="1 bag of sugar" />
+        <input type="submit" id="shop-add-btn" value="Add Item" />
     </form>
     <br>
     <div class="calculator">
@@ -27,34 +30,36 @@
 
         <div class="calculator-keys">
 
-            <button type="button" class="operator" value="+">+</button>
-            <button type="button" class="operator" value="-">-</button>
-            <button type="button" class="operator" value="*">&times;</button>
-            <button type="button" class="operator" value="/">&divide;</button>
-
-            <button type="button" value="7">7</button>
-            <button type="button" value="8">8</button>
-            <button type="button" value="9">9</button>
+            <button type="button" id="plus" class="operator" value="+">+</button>
+            <button type="button" id="minus" class="operator" value="-">-</button>
+            <button type="button" id="multiply" class="operator" value="*">&times;</button>
+            <button type="button" id="divide" class="operator" value="/">&divide;</button>
 
 
-            <button type="button" value="4">4</button>
-            <button type="button" value="5">5</button>
-            <button type="button" value="6">6</button>
+            <button id="button-7" type="button" value="7">7</button>
+            <button id="button-8" type="button" value="8">8</button>
+            <button id="button-9" type="button" value="9">9</button>
 
 
-            <button type="button" value="1">1</button>
-            <button type="button" value="2">2</button>
-            <button type="button" value="3">3</button>
+            <button id="button-4" type="button" value="4">4</button>
+            <button id="button-5" type="button" value="5">5</button>
+            <button id="button-6" type="button" value="6">6</button>
 
 
-            <button type="button" value="0">0</button>
-            <button type="button" class="decimal" value=".">.</button>
-            <button type="button" class="all-clear" value="all-clear">AC</button>
+            <button id="button-1" type="button" value="1">1</button>
+            <button id="button-2" type="button" value="2">2</button>
+            <button id="button-3" type="button" value="3">3</button>
 
-            <button type="button" class="equal-sign" value="=">=</button>
+
+            <button id="button-0" type="button" value="0">0</button>
+            <button id="period" type="button" class="decimal" value=".">.</button>
+            <button id="all-clear" type="button" class="all-clear" value="all-clear">AC</button>
+
+            <button id="equal-sign" type="button" class="equal-sign" value="=">=</button>
 
         </div>
     </div>
 </body>
 <script src="./main.js"></script>
+
 </html>

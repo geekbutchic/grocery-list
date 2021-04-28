@@ -43,7 +43,7 @@ const shoppingList = {
   draw: function () {
     shoppingList.htmlShoppingList.innerHTML = "";
     if (shoppingList.items.length > 0) {
-      let row, name, delbtn, okbtn;
+      let row, name, deleteButton, okayButton;
       for (let i in shoppingList.items) {
         // CREATES ITEM ROW
         row = document.createElement("div");
