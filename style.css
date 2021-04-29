@@ -1,5 +1,4 @@
 html {
-  /* background-image: url(https://www.healththoroughfare.com/wp-content/uploads/2017/08/Fruits-Vegetables-Stay-HealthyLow-income-families-Food-Research.jpg); */
   background-color: blanchedalmond;
   box-sizing: border-box;
 }
@@ -16,7 +15,8 @@ html {
 #shop-add {
   display: flex;
   flex-wrap: wrap;
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
+  background: #f7d6b7;
   border: 1px solid #eee;
   padding: 10px;
   max-width: 400px;
@@ -43,7 +43,7 @@ html {
   color: #fff;
 }
 
-/* (B) SHOPPING LIST */
+/* SHOPPING LIST */
 .item-row {
   display: flex;
   width: 100%;
@@ -59,7 +59,8 @@ html {
   content: "\02713";
   margin-right: 5px;
   font-weight: bold;
-  color: #00d036;
+  color: #0be946;
+  /* color: #00d036; */
 }
 
 .item-del,
@@ -84,17 +85,25 @@ html {
 
 h1 {
   display: flex;
+  font-style: italic;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   justify-content: center;
-  color: #3fa73f;
+  /* color: #3fa73f; */
+  color: #06f8f4;
   border-style: solid;
   border-color: blanchedalmond;
   background-color: blanchedalmond;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h3 {
+  font-style: italic;
   display: flex;
   justify-content: center;
   color: #f26e09;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  
 }
 
 .calculator {
@@ -109,13 +118,18 @@ h3 {
 .calculator-screen {
   display: grid;
   grid-area: scn;
-  width: 370px;
+  width: 360px;
   height: 50px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(130, 132, 209);
+  border-color: rgb(11, 11, 228);
+  border-radius: 5px;
 }
 
 .calculator-keys {
+  grid-gap: 3px;
+  padding: 3px;
   grid-area: calc;
   display: grid;
   height: 130px;
@@ -130,11 +144,20 @@ h3 {
 }
 
 #equal-sign {
-    grid-row-start: 2;
-    grid-row-end: 6;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    border-radius: 5px;
-    background-color: #2e86c0;
-    color: #fff;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  border-radius: 5px;
+  background-color: #2e86c0;
+  color: white;
 }
+
+.all-clear {
+  background-color: #f0595f;
+  color:white;
+}
+
+.operator {
+    color: #0e8ef0;
+  }
