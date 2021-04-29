@@ -20,6 +20,8 @@ html {
   border: 1px solid #eee;
   padding: 10px;
   max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item-row,
@@ -119,10 +121,10 @@ h3 {
 .calculator-screen {
   display: grid;
   grid-area: scn;
-  width: 360px;
+  width: 384px;
   height: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(130, 132, 209);
   border-color: rgb(11, 11, 228);
   border-radius: 5px;
