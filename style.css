@@ -175,6 +175,7 @@ h3 {
 
 @media (max-width: 400px) {
   html {
-    width: 100%;
+    width: auto;
+    height: auto;
   }
 }
