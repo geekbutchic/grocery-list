@@ -126,7 +126,8 @@ h3 {
   border-radius: 5px;
 }
 
-.calculator-keys {
+.calculator-keys {  
+  margin-top: 5px;  
   grid-gap: 3px;
   padding: 3px;
   grid-area: calc;
@@ -167,3 +168,4 @@ h3 {
 #equal-sign:active{
     top: 2px;
 }
+
