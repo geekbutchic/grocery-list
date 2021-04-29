@@ -1,7 +1,7 @@
 html {
-  background-color: blanchedalmond;
   box-sizing: border-box;
-  width: 380px;
+  width: 400px;
+  margin: 5px;
 }
 
 *,
@@ -16,13 +16,14 @@ html {
 #shop-add {
   display: flex;
   flex-wrap: wrap;
-  /* background: #f2f2f2; */
-  background: #f7d6b7;
+  background: #cfe3eb;
+  /* background: #f7d6b7; */
   border: 1px solid #eee;
   padding: 10px;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 6px;
 }
 
 .item-row,
@@ -43,7 +44,7 @@ html {
 .item-ok,
 #shop-add-btn {
   cursor: pointer;
-  color: #fff;
+  color: white;
 }
 
 /* SHOPPING LIST */
@@ -56,14 +57,13 @@ html {
   width: 60%;
 }
 .item-name.item-got {
-  background: #f5fffa;
+  background: blanchedalmond#f5fffa;
 }
 .item-name.item-got:before {
   content: "\02713";
   margin-right: 5px;
   font-weight: bold;
-  color: #0be946;
-  /* color: #00d036; */
+  color: #19d14a;
 }
 
 .item-del,
@@ -92,25 +92,20 @@ h1 {
   font-style: italic;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   justify-content: center;
-  /* color: #3fa73f; */
-  color: #06f8f4;
-  border-style: solid;
-  border-color: blanchedalmond;
-  background-color: blanchedalmond;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
+  color: #2369b5;
 }
 
 h3 {
   font-style: italic;
   display: flex;
   justify-content: center;
-  color: #f26e09;
+  color: #52b4bf;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  
+  padding-top: 10px;
 }
 
 .calculator {
+ margin-top: 15px;   
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 80%;
@@ -122,7 +117,7 @@ h3 {
 .calculator-screen {
   display: grid;
   grid-area: scn;
-  width: 350px;
+  width: 380px;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
