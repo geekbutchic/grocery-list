@@ -66,6 +66,7 @@ html {
 .item-del,
 .item-ok {
   width: 20%;
+  height: 41px;
 }
 .item-del {
   background: #de1919;
@@ -161,3 +162,10 @@ h3 {
 .operator {
     color: #0e8ef0;
   }
+
+#equal-sign{
+    position: relative;
+}
+#equal-sign:active{
+    top: 2px;
+}
