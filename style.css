@@ -104,6 +104,7 @@ h3 {
 }
 
 .calculator {
+    
   margin-top: 15px;
   display: grid;
   grid-template-columns: 100%;

@@ -39,7 +39,7 @@ const shoppingList = {
     shoppingList.draw();
   },
 
-  // (C) DRAW THE HTML SHOPPING LIST
+  // DRAW THE HTML SHOPPING LIST
   draw: function () {
     shoppingList.htmlShoppingList.innerHTML = "";
     if (shoppingList.items.length > 0) {
