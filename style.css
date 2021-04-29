@@ -34,6 +34,7 @@ html {
 #shop-add-btn {
   box-sizing: border-box;
   border: 0;
+  font-size: 14px;
 }
 .item-name,
 #shop-item {
@@ -89,14 +90,12 @@ html {
 
 h1 {
   display: flex;
-  font-style: italic;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   justify-content: center;
   color: #2369b5;
 }
 
 h3 {
-  font-style: italic;
   display: flex;
   justify-content: center;
   color: #52b4bf;
@@ -105,7 +104,7 @@ h3 {
 }
 
 .calculator {
- margin-top: 15px;   
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 80%;
@@ -129,8 +128,9 @@ h3 {
   color: azure;
 }
 
-.calculator-keys {  
-  margin-top: 5px;  
+.calculator-keys {
+  position: relative;  
+  margin-top: 5px;
   grid-gap: 3px;
   padding: 3px;
   grid-area: calc;
@@ -156,19 +156,25 @@ h3 {
   color: white;
 }
 
+.calculator-keys:active {
+  top: 0.5px;
+}
+
 .all-clear {
   background-color: #f0595f;
-  color:white;
+  border-color: #b0353a;
+  color: #fff;
 }
 
-.operator {
-    color: #0e8ef0;
+#all-clear {
+  position: relative;
+}
+#all-clear:active {
+  top: 0.5px;
+}
+
+@media (max-width: 400px) {
+  html {
+    width: 100%;
   }
-
-#equal-sign{
-    position: relative;
 }
-#equal-sign:active{
-    top: 2px;
-}
-
