@@ -50,7 +50,7 @@ function handleOperator(nextOperator) {
   calculator.waitingForSecondOperand = true;
   calculator.operator = nextOperator;
 }
-
+// REFACTOR CODE TO INCLUDE SWITCH STATEMENT 
 function calculate(firstOperand, secondOperand, operator) {
   if (operator === "+") {
     return firstOperand + secondOperand;
@@ -64,7 +64,7 @@ function calculate(firstOperand, secondOperand, operator) {
 
   return secondOperand;
 }
-
+// RESET CALCULATOR OBJECT 
 function resetCalculator() {
   calculator.displayValue = "0";
   calculator.firstOperand = null;

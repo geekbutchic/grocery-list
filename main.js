@@ -25,7 +25,7 @@ const shoppingList = {
     // PREVENT FORM RE-SUBMISSION
     event.preventDefault();
 
-    // ADDS ITEM
+    // ADDS ITEM TO LIST
     shoppingList.items.push({
       name: shoppingList.htmlInputField.value, // NAME
       done: false, // TRUE = "GOT IT" | FALSE = FOR "NOT YET"
