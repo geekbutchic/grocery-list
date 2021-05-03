@@ -28,7 +28,7 @@ const shoppingList = {
     // ADDS ITEM TO LIST
     shoppingList.items.push({
       name: shoppingList.htmlInputField.value, // NAME
-      done: false, // TRUE = "GOT IT" | FALSE = FOR "NOT YET"
+      done: false, // TRUE = "IN CART" | FALSE = FOR "NOT YET"
     });
 
     // UPDATES LOCAL STORAGE
