@@ -1,10 +1,11 @@
+// SETS OBJECT
 const calculator = {
   displayValue: "0",
   firstOperand: null,
   waitingForSecondOperand: false,
   operator: null,
 };
-
+// INPUT 
 function inputDigit(digit) {
   const { displayValue, waitingForSecondOperand } = calculator;
 
@@ -16,7 +17,7 @@ function inputDigit(digit) {
       displayValue === "0" ? digit : displayValue + digit;
   }
 }
-
+//HANDLES DECIMAL 
 function inputDecimal(dot) {
   if (calculator.waitingForSecondOperand === true) {
     calculator.displayValue = "0.";
@@ -28,7 +29,7 @@ function inputDecimal(dot) {
     calculator.displayValue += dot;
   }
 }
-
+// PROCESS OPERATORS THAT ARE CLICKED
 function handleOperator(nextOperator) {
   const { firstOperand, displayValue, operator } = calculator;
   const inputValue = parseFloat(displayValue);
@@ -71,14 +72,14 @@ function resetCalculator() {
   calculator.waitingForSecondOperand = false;
   calculator.operator = null;
 }
-
+// UPDATES DISPLAY 
 function updateDisplay() {
   const display = document.querySelector(".calculator-screen");
   display.value = calculator.displayValue;
 }
 
 updateDisplay();
-
+// UPDATES DISPLAY ON ITEMS CLICKED 
 const keys = document.querySelector(".calculator-keys");
 keys.addEventListener("click", (event) => {
   const { target } = event;
